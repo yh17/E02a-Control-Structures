@@ -30,7 +30,7 @@ Edit README.md to answer the following questions:
 - Open main05.py. What do you expect line 9 to do?
   - What problem is it trying to solve?
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
- - Open main06.py. How is line 9 different than main05.py?
+ - Open main06.py. How is line 9 different than in main05.py?
    - What would you guess .strip() is doing?
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
