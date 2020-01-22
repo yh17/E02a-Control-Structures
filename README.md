@@ -70,19 +70,19 @@ This should launch GitHub Desktop. It will ask you for a location (on your compu
 
 Once GitHub Desktop has cloned (downloaded) the code, it will be responsible for keeping the code on your local computer synchronized with the repository in your GitHub account. Now, open Visual Studio Code, and choose File->Open. Find the folder of the cloned repository and select Open.
 
-In the left (File Explorer) panel, you should see a list of files that comprise this repository.
+In the left (File Explorer) panel, you should see a list of files that comprise this repository
 
 First, edit the file called LICENSE. Replace year and name with the current year and your name. Save this file
 
-Then open README.md. Feel free to remove any extraneous information, and then answer the questions posed in the file. You can add your answers after each question.
+Then open README.md. Feel free to remove any extraneous information, and then answer the questions posed in the file. You can add your answers after each question
 
 When the time comes for you to run any of the python files, you can do so by clicking the green arrow in the top right corner of the window or by right-clicking on the code and selecting "Run Python File in Terminal". The results will appear at the bottom. If you don't see "Run Python File in Terminal" in the contextual menu, that is because VS Code doesn't have the Python extension installed. You can do that here: [https://marketplace.visualstudio.com/items?itemName=ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-When you are done editing the files, return to GitHub Desktop. In the left panel, you should see a list of the files that have changed.
+When you are done editing the files, return to GitHub Desktop. In the left panel, you should see a list of the files that have changed
 
-At the bottom of the leftmost area, you should see a text box labeled "Summary (required)". Add a message that describes what you have done; these messages are typically stated in the active-present tense. For example, "Updates the LICENSE, README.md, and completes the assignment." Push the blue "Commit to master" button.
+At the bottom of the leftmost area, you should see a text box labeled "Summary (required)". Add a message that describes what you have done; these messages are typically stated in the active-present tense. For example, "Updates the LICENSE, README.md, and completes the assignment." Push the blue "Commit to master" button
 
-In the top bar of the window, you should see a button that is labeled "Push origin", push that now.
+In the top bar of the window, you should see a button that is labeled "Push origin", push that now
 
 Check out your page on GitHub. You should see the changes you made reflected there, Repeat steps 10 through 16 as necessary
 
