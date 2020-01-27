@@ -14,34 +14,88 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
-  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
-  - What do you think the program did with what you typed in answer to the question?
+To show the string of "Greeting" and "What is my favorite color?" Like a start of a game and allow player to choose a color.
+
+  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+ Nothing happen and game is done.
+
+  - What do you think the program did with what you typed in answer to the question? 
+  It is nothing happen since python don't know how to deal with my answer.
+
 - Open main02.py. Before running it, describe how this is different than main01.py.
+It gives me an extra line of code thatdefines "color".
+
   - What do you think the color = input() will do?
+To show decide the "color" as same as my input.
+
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+  No really, python will show whatever I type eventhough it is not a color.
+
 - Open main03.py. Before running it, describe how this is different than main02.py.
+It uses some if and else code in it.
+
   - What is happening on lines 9–12?
+  It uses the if and else code to give more choices.
+
   - Why are lines 10 and 12 indented?
+  because it is part of IF code, to give you other result when you not put right answer.
+
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+  It will tell you try again.
+
   - What does this tell you about "color"?
+  The only true answer of "color" is "Red", it will define the favorite color is the string "Red".
+
 - Open main04.py. Before running it, describe how this is different than main03.py.
+It adds another code to define color.
+
   - What problem is this trying to solve?
+  It trying to fix the problem that lowercase "red" is not answer for this game, when it fix like this, "red" and "Red" will both be correct answer.
+
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+  It will show incorrect and tell you to try again.
+
 - Open main05.py. What do you expect line 9 to do?
+To fix the wrong answer of uppercase and lowercase.
+
   - What problem is it trying to solve?
+  Try to fix the problem that uppercase in answer will be wrong answer in this game.
+
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+  It will tell you try again since python can not recognize the spaces before or after the word.
+
  - Open main06.py. How is line 9 different than in main05.py?
+ It add additional strip code.
+
    - What would you guess .strip() is doing?
+   To reduce the spaces before and after the word that I type in.
+
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+   No. I think.
+
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+ It adds another else code and try to give more information when we miss correct answer.
+
    - What is happening on line 12?
+   It adds else code to define when player answer the string "pink", when player answer "pink",it will give the "close" message to player.
+
    - Run the program and answer the question.
  - Open main08.py. What is the purpose of line 9?
+  To make this game as a loop, when you incorrect you can keep guessing.
+
    - Why are lines 10–17 indented?
+   Because those process should in the "While" code in order to make a loop of this game.
+
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+   It will show the "Sorry, try again" again and again.
+
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
  - Open main09.py. What is happening on line 13?
+ It adds a code that can count the number of your guessing until you gain right answer. 
+
    - What is the purpose of “count”?
+   TO count your incorrect answer.
+
    - What is happening on line 22?
    - Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
